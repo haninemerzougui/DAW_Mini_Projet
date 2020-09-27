@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(empty($_SESSION['user'])){
-  header('Location: /hanine/login1.php?error=login please!');
+  header('Location: /login1.php?error=login please!');
 }
 $con = mysqli_connect('localhost','id14971852_root','86!uLBs7+YE73[77');
 mysqli_select_db($con, 'id14971852_registration');
@@ -52,7 +52,7 @@ if ($uploadOk == 0) {
     $userID = $_SESSION['userID'];
     $reg = " INSERT INTO products(picture , userID, category ) VALUES ('$picture','$userID','$categ')";
     if ($con->query($reg) === TRUE) {
-      header('location:  /hanine/grateful.php');
+      header('location:  /grateful.php');
     } else {
       echo "Error: " . $reg . "<br>" . $con->error;
     }
