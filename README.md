@@ -3,7 +3,7 @@ Created By: Hanine Merzougui
 #
 #Description
 #
-Grateful Giving charity is made by Hanine and Oumnia in order embody the culture of giving in a modern and easy way, it's something new in our country and we want to make for all around Algeria and why not all around the world
+Grateful Giving charity is made by Haninein order embody the culture of giving in a modern and easy way, it's something new in our country and we want to make for all around Algeria and why not all around the world
 #
 #Concept
 #
